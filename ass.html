@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .d-grid{
+            grid-template-rows: 10vh 80vh 10vh;
+        } 
+        body{
+            background-image:url("https://cdn.wallpapersafari.com/10/66/1u3zGZ.jpg") ;
+            background-size: cover;
+            background-position: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .one{
+            background-color: rgba(0, 0, 0, 0.592);
+        }
+        #image{
+            width: 100px;
+        }
+        .three{
+            font-size: 15px;
+        }
+        @media screen and (min-width:300px) and (max-width:700px){
+            #image{
+            width: 60px;
+        }
+        .three{
+            font-size: 10px;
+        }
+
+        }
+          
+    </style>
+</head>
+<body >
+    <div class="container-fluid d-grid one">
+       <div class="row  text-danger py-4 ps-4 two"><p><img src="https://pngimg.com/uploads/netflix/netflix_PNG25.png " alt="netflix" id="image"></p></div>
+       <div class="row  d-flex align-items-center text-center fs-1 ">
+         <p><span class="text-muted">EVERYTHING IS CONNECTED</span><br><span class="text-white fs-3">DΛЯK</span></p>
+       </div>
+       <div class="row  text-white text-center three"><p>&copy 2024 Dark , Netflix</p></div>
+   </div>
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
